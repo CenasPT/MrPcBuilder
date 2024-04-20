@@ -1,0 +1,10 @@
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe.config
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.pdb
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.AssemblyReference.cache
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.LogIn.resources
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.Properties.Resources.resources
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.GenerateResource.cache
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.CoreCompileInputs.cache
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.exe
+P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.pdb
