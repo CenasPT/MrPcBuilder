@@ -17,7 +17,7 @@ CREATE TABLE users (
 	id_user				INT AUTO_INCREMENT,
     username			VARCHAR(15) NOT NULL UNIQUE,
     user_password		VARCHAR(128) NOT NULL,
-    fails				TINYINT DEFAULT 0,
+    fails				TINYINT DEFAULT 0 NOT NULL,
     user_status			ENUM('Active','Inactive') DEFAULT 'Active' NOT NULL,
 	user_role			ENUM('Customer', 'Employee') DEFAULT 'Customer' NOT NULL,
 	PRIMARY KEY (id_user)

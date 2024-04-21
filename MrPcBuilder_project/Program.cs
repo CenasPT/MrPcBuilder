@@ -16,7 +16,7 @@ namespace MrPcBuilder_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogIn());
+            Application.Run(new MainForm());
         }
     }
 }
