@@ -60,7 +60,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(854, 28);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // label2
             // 
@@ -223,7 +223,7 @@
             this.panel2.Location = new System.Drawing.Point(69, 101);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(383, 264);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 0;
             // 
             // LogInForm
             // 

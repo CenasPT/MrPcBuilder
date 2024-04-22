@@ -4,35 +4,46 @@ CREATE DATABASE mrpcbuilder_database;
 
 USE mrpcbuilder_database;
 
-CREATE TABLE employee (
-	id_employee			INT AUTO_INCREMENT,
-    name_employee		VARCHAR(100) NOT NULL,
-    tax_id				INT(9) NOT NULL,
-    position			VARCHAR(50) NOT NULL,
-	email				VARCHAR(50) NOT NULL UNIQUE,
-    PRIMARY KEY (id_employee)
-);
-
-CREATE TABLE users (
-	id_user				INT AUTO_INCREMENT,
+CREATE TABLE employee_login (
+	id_employee_login	INT AUTO_INCREMENT,
     username			VARCHAR(15) NOT NULL UNIQUE,
     user_password		VARCHAR(128) NOT NULL,
     fails				TINYINT DEFAULT 0 NOT NULL,
     user_status			ENUM('Active','Inactive') DEFAULT 'Active' NOT NULL,
-	user_role			ENUM('Customer', 'Employee') DEFAULT 'Customer' NOT NULL,
+	PRIMARY KEY (id_employee_login)
+);
+
+CREATE TABLE employee (
+	id_employee			INT AUTO_INCREMENT,
+	id_employee_login	INT NOT NULL,
+    name_employee		VARCHAR(100) NOT NULL,
+    tax_id				INT(9) NOT NULL,
+    position			VARCHAR(50) NOT NULL,
+	email				VARCHAR(50) NOT NULL UNIQUE,
+    PRIMARY KEY (id_employee),
+	FOREIGN KEY (id_employee_login) REFERENCES employee_login (id_employee_login)
+		ON UPDATE CASCADE
+);
+
+CREATE TABLE customer_login (
+	id_customer_login	INT AUTO_INCREMENT,
+    username			VARCHAR(15) NOT NULL UNIQUE,
+    user_password		VARCHAR(128) NOT NULL,
+    fails				TINYINT DEFAULT 0 NOT NULL,
+    user_status			ENUM('Active','Inactive') DEFAULT 'Active' NOT NULL,
 	PRIMARY KEY (id_user)
 );
 
 CREATE TABLE customer (
 	id_customer			INT AUTO_INCREMENT,
-	id_user				INT NOT NULL,
+	id_customer_login	INT NOT NULL,
     name_customer		VARCHAR(100) NOT NULL,
     address_customer	VARCHAR(150) NULL,
     phone_number		INT(9) NULL,
 	email				VARCHAR(50) NOT NULL UNIQUE,
 	tax_id				INT(9) NULL,
     PRIMARY KEY (id_customer),
-	FOREIGN KEY (id_user) REFERENCES users (id_user)
+	FOREIGN KEY (id_customer_login) REFERENCES customer_login (id_customer_login)
 		ON UPDATE CASCADE
 );
 

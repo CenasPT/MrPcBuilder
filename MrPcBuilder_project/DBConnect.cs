@@ -70,7 +70,7 @@ namespace MrPcBuilder_project
                 if (OpenConnection())
                 {
                     // check user status (login fails)
-                    string queryStatus = "select fails from users where username = '" + username + "';";
+                    string queryStatus = "select fails from employee_login where username = '" + username + "';";
                     MySqlCommand cmdStatus = new MySqlCommand(queryStatus, connection);
                     if (cmdStatus.ExecuteScalar() != null)
                     {
@@ -78,7 +78,7 @@ namespace MrPcBuilder_project
 
                         if (fails >= 5)
                         {
-                            string queryUpdateStatus = "update users set user_status = 'Inactive' where username = '" + username + "';";
+                            string queryUpdateStatus = "update employee_login set user_status = 'Inactive' where username = '" + username + "';";
                             MySqlCommand cmdUpdateStatus = new MySqlCommand(queryUpdateStatus, connection);
                             cmdUpdateStatus.ExecuteNonQuery();
                             MessageBox.Show("User " + username + " is bloqued!\nFailed authentication " + fails + " times.\n Contact system administrator.");
@@ -86,7 +86,7 @@ namespace MrPcBuilder_project
                         }
 
                         // check credentials if user is not blocked
-                        string queryLogin = "select username from users where username = '" + username + "' and user_password = '" + password + "' and user_status = 'Active';";
+                        string queryLogin = "select username from employee_login where username = '" + username + "' and user_password = '" + password + "' and user_status = 'Active';";
                         MySqlCommand cmdLogin = new MySqlCommand(queryLogin, connection);
                         if (cmdLogin.ExecuteScalar() != null)
                         {
@@ -97,7 +97,7 @@ namespace MrPcBuilder_project
                         {
                             fails++;
                         }
-                        string queryUpdateFails = "update users set fails = '" + fails + "' where username = '" + username + "';";
+                        string queryUpdateFails = "update employee_login set fails = '" + fails + "' where username = '" + username + "';";
                         MySqlCommand cmdUpdateFails = new MySqlCommand(queryUpdateFails, connection);
                         cmdUpdateFails.ExecuteNonQuery();
                     }

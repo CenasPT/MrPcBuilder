@@ -18,7 +18,13 @@ namespace MrPcBuilder_project
         private void btnLogin_Click(object sender, EventArgs e)
         {
             int fails = 0;
-            if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text, ref fails))
+            if (string.IsNullOrEmpty(txtUserName.Text))
+            {
+                MessageBox.Show("Insert a username!");
+            }else if (string.IsNullOrEmpty(txtPassword.Text))
+            {
+                MessageBox.Show("Insert a password!");
+            }else if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text, ref fails))
             {
                 DialogResult = DialogResult.OK;             
             }
@@ -33,6 +39,7 @@ namespace MrPcBuilder_project
         {
             txtUserName.Text = "";
             txtPassword.Text = "";
+            panel2.Focus();
             txtUserName.Focus();
         }
 
