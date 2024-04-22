@@ -17,20 +17,18 @@ namespace MrPcBuilder_project
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            int fails = 0;
             if (string.IsNullOrEmpty(txtUserName.Text))
             {
                 MessageBox.Show("Insert a username!");
             }else if (string.IsNullOrEmpty(txtPassword.Text))
             {
                 MessageBox.Show("Insert a password!");
-            }else if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text, ref fails))
+            }else if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text))
             {
                 DialogResult = DialogResult.OK;             
             }
             else
-            {
-                MessageBox.Show("Failed Authentication!\nFails: " + fails + "\nFail limit: 5");
+            {                
                 Clean();
             }
         }

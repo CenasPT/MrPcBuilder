@@ -8,8 +8,7 @@ namespace MrPcBuilder_project
         LogInForm login = new LogInForm();
         public MainForm()
         {
-            InitializeComponent();
-            this.Visible = false;
+            InitializeComponent();            
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -20,7 +19,7 @@ namespace MrPcBuilder_project
             }
             else
             {
-                this.Visible=true;
+                this.WindowState = FormWindowState.Maximized;
             }
             
         }

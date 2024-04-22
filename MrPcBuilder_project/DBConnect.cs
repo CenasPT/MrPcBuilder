@@ -1,6 +1,8 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using Mysqlx.Session;
 
 namespace MrPcBuilder_project
 {
@@ -61,7 +63,7 @@ namespace MrPcBuilder_project
         }
 
         // LOGIN VALIDATION
-        public bool ValidateLogin(string username, string password, ref int fails)
+        public bool ValidateLogin(string username, string password)
         {
             bool flag = false;
 
@@ -72,16 +74,21 @@ namespace MrPcBuilder_project
                     // check user status (login fails)
                     string queryStatus = "select fails from employee_login where username = '" + username + "';";
                     MySqlCommand cmdStatus = new MySqlCommand(queryStatus, connection);
-                    if (cmdStatus.ExecuteScalar() != null)
+                    if (cmdStatus.ExecuteScalar() == null)
                     {
-                        fails = int.Parse(cmdStatus.ExecuteScalar().ToString());
+                        MessageBox.Show("Failed Authentication!");
+                        return false;
+                    }
+                    else
+                    {
+                        int fails = int.Parse(cmdStatus.ExecuteScalar().ToString());
 
                         if (fails >= 5)
                         {
                             string queryUpdateStatus = "update employee_login set user_status = 'Inactive' where username = '" + username + "';";
                             MySqlCommand cmdUpdateStatus = new MySqlCommand(queryUpdateStatus, connection);
                             cmdUpdateStatus.ExecuteNonQuery();
-                            MessageBox.Show("User " + username + " is bloqued!\nFailed authentication " + fails + " times.\n Contact system administrator.");
+                            MessageBox.Show("User " + username + " is bloqued!\nContact system administrator.");
                             return false;
                         }
 
@@ -96,6 +103,7 @@ namespace MrPcBuilder_project
                         else
                         {
                             fails++;
+                            MessageBox.Show("Failed Authentication!\nFail limit: 5\nCurrent Fails: " + fails);
                         }
                         string queryUpdateFails = "update employee_login set fails = '" + fails + "' where username = '" + username + "';";
                         MySqlCommand cmdUpdateFails = new MySqlCommand(queryUpdateFails, connection);
@@ -112,6 +120,6 @@ namespace MrPcBuilder_project
                 CloseConnection();
             }
             return flag;
-        }    
+        }        
     }
 }
