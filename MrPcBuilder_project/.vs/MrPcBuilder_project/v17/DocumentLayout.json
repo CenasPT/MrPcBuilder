@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -222,8 +222,7 @@
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs [Design]",
               "RelativeToolTip": "UserControls\\HomeControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:20:36.169Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-24T11:20:36.169Z"
             },
             {
               "$type": "Document",
@@ -235,8 +234,7 @@
               "RelativeToolTip": "UserControls\\HomeControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:42:32.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:42:32.782Z"
             },
             {
               "$type": "Document",
@@ -247,8 +245,7 @@
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\BuildControl.cs [Design]",
               "RelativeToolTip": "UserControls\\BuildControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:53:12.56Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-24T11:53:12.56Z"
             },
             {
               "$type": "Document",
@@ -260,8 +257,7 @@
               "RelativeToolTip": "UserControls\\BuildControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:59:15.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:59:15.106Z"
             },
             {
               "$type": "Document",
@@ -687,8 +683,7 @@
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\LogInForm.cs [Design]",
               "RelativeToolTip": "Forms\\LogInForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T15:21:01.984Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-02T15:21:01.984Z"
             },
             {
               "$type": "Document",
