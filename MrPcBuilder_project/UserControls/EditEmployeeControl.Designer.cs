@@ -46,6 +46,7 @@
             this.lblID = new System.Windows.Forms.Label();
             this.lblEditEmployeeTitle = new System.Windows.Forms.Label();
             this.panelEditEmployee3 = new System.Windows.Forms.Panel();
+            this.lblBloquedAccount = new System.Windows.Forms.Label();
             this.btnReactivateAcc = new System.Windows.Forms.Button();
             this.txtPassEmployee = new System.Windows.Forms.TextBox();
             this.lblPassEmployee = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@
             this.lblLoginInfoClient = new System.Windows.Forms.Label();
             this.btnCancelNewLogin = new System.Windows.Forms.Button();
             this.btnSaveEmployeeAcc = new System.Windows.Forms.Button();
-            this.lblBloquedAccount = new System.Windows.Forms.Label();
+            this.btnDeactivateAcc = new System.Windows.Forms.Button();
             this.panelEditEmployee2.SuspendLayout();
             this.panelEditEmployee1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudEmployeeID)).BeginInit();
@@ -64,6 +65,7 @@
             // panelEditEmployee2
             // 
             this.panelEditEmployee2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
+            this.panelEditEmployee2.Controls.Add(this.btnDeactivateAcc);
             this.panelEditEmployee2.Controls.Add(this.btnCancel);
             this.panelEditEmployee2.Controls.Add(this.cbEditRoleEmployee);
             this.panelEditEmployee2.Controls.Add(this.txtEditTax_IDEmployee);
@@ -88,7 +90,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(356, 109);
+            this.btnCancel.Location = new System.Drawing.Point(358, 109);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(138, 27);
             this.btnCancel.TabIndex = 10;
@@ -193,7 +195,7 @@
             this.btnSaveEditEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveEditEmployee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveEditEmployee.ForeColor = System.Drawing.Color.White;
-            this.btnSaveEditEmployee.Location = new System.Drawing.Point(28, 109);
+            this.btnSaveEditEmployee.Location = new System.Drawing.Point(26, 109);
             this.btnSaveEditEmployee.Name = "btnSaveEditEmployee";
             this.btnSaveEditEmployee.Size = new System.Drawing.Size(138, 27);
             this.btnSaveEditEmployee.TabIndex = 8;
@@ -278,6 +280,17 @@
             this.panelEditEmployee3.Name = "panelEditEmployee3";
             this.panelEditEmployee3.Size = new System.Drawing.Size(696, 166);
             this.panelEditEmployee3.TabIndex = 2;
+            // 
+            // lblBloquedAccount
+            // 
+            this.lblBloquedAccount.AutoSize = true;
+            this.lblBloquedAccount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBloquedAccount.ForeColor = System.Drawing.Color.Red;
+            this.lblBloquedAccount.Location = new System.Drawing.Point(456, 23);
+            this.lblBloquedAccount.Name = "lblBloquedAccount";
+            this.lblBloquedAccount.Size = new System.Drawing.Size(110, 17);
+            this.lblBloquedAccount.TabIndex = 17;
+            this.lblBloquedAccount.Text = "Bloqued Account!";
             // 
             // btnReactivateAcc
             // 
@@ -374,16 +387,21 @@
             this.btnSaveEmployeeAcc.UseVisualStyleBackColor = true;
             this.btnSaveEmployeeAcc.Click += new System.EventHandler(this.btnSaveEmployeeAcc_Click);
             // 
-            // lblBloquedAccount
+            // btnDeactivateAcc
             // 
-            this.lblBloquedAccount.AutoSize = true;
-            this.lblBloquedAccount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBloquedAccount.ForeColor = System.Drawing.Color.Red;
-            this.lblBloquedAccount.Location = new System.Drawing.Point(456, 23);
-            this.lblBloquedAccount.Name = "lblBloquedAccount";
-            this.lblBloquedAccount.Size = new System.Drawing.Size(110, 17);
-            this.lblBloquedAccount.TabIndex = 17;
-            this.lblBloquedAccount.Text = "Bloqued Account!";
+            this.btnDeactivateAcc.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnDeactivateAcc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnDeactivateAcc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnDeactivateAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeactivateAcc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeactivateAcc.ForeColor = System.Drawing.Color.White;
+            this.btnDeactivateAcc.Location = new System.Drawing.Point(524, 109);
+            this.btnDeactivateAcc.Name = "btnDeactivateAcc";
+            this.btnDeactivateAcc.Size = new System.Drawing.Size(138, 27);
+            this.btnDeactivateAcc.TabIndex = 11;
+            this.btnDeactivateAcc.Text = "Deactivate Account";
+            this.btnDeactivateAcc.UseVisualStyleBackColor = true;
+            this.btnDeactivateAcc.Click += new System.EventHandler(this.btnDeactivateAcc_Click);
             // 
             // EditEmployeeControl
             // 
@@ -435,5 +453,6 @@
         private System.Windows.Forms.Button btnCancelNewLogin;
         private System.Windows.Forms.Button btnSaveEmployeeAcc;
         private System.Windows.Forms.Label lblBloquedAccount;
+        private System.Windows.Forms.Button btnDeactivateAcc;
     }
 }

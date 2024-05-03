@@ -44,8 +44,6 @@
             this.lblBloquedUser = new System.Windows.Forms.Label();
             this.lblInvalidPassword = new System.Windows.Forms.Label();
             this.lblIvalidUsername = new System.Windows.Forms.Label();
-            this.btnCreateNewAccount = new System.Windows.Forms.Button();
-            this.btnBackToLoginScreen = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -140,7 +138,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(120, 240);
+            this.btnLogin.Location = new System.Drawing.Point(194, 240);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(138, 27);
             this.btnLogin.TabIndex = 7;
@@ -185,10 +183,8 @@
             this.panelLogin.Controls.Add(this.lblBloquedUser);
             this.panelLogin.Controls.Add(this.lblInvalidPassword);
             this.panelLogin.Controls.Add(this.lblIvalidUsername);
-            this.panelLogin.Controls.Add(this.btnCreateNewAccount);
             this.panelLogin.Controls.Add(this.lblLogin);
             this.panelLogin.Controls.Add(this.txtUserName);
-            this.panelLogin.Controls.Add(this.btnBackToLoginScreen);
             this.panelLogin.Controls.Add(this.pictureBox2);
             this.panelLogin.Controls.Add(this.pictureBox1);
             this.panelLogin.Controls.Add(this.lblPassword);
@@ -235,38 +231,6 @@
             this.lblIvalidUsername.Size = new System.Drawing.Size(112, 17);
             this.lblIvalidUsername.TabIndex = 3;
             this.lblIvalidUsername.Text = "Invalid Username!";
-            // 
-            // btnCreateNewAccount
-            // 
-            this.btnCreateNewAccount.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCreateNewAccount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.btnCreateNewAccount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCreateNewAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateNewAccount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreateNewAccount.ForeColor = System.Drawing.Color.White;
-            this.btnCreateNewAccount.Location = new System.Drawing.Point(274, 240);
-            this.btnCreateNewAccount.Name = "btnCreateNewAccount";
-            this.btnCreateNewAccount.Size = new System.Drawing.Size(138, 27);
-            this.btnCreateNewAccount.TabIndex = 8;
-            this.btnCreateNewAccount.Text = "Create New Account";
-            this.btnCreateNewAccount.UseVisualStyleBackColor = true;
-            this.btnCreateNewAccount.Click += new System.EventHandler(this.btnCreateNewAccount_Click);
-            // 
-            // btnBackToLoginScreen
-            // 
-            this.btnBackToLoginScreen.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnBackToLoginScreen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.btnBackToLoginScreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnBackToLoginScreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBackToLoginScreen.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackToLoginScreen.ForeColor = System.Drawing.Color.White;
-            this.btnBackToLoginScreen.Location = new System.Drawing.Point(559, 354);
-            this.btnBackToLoginScreen.Name = "btnBackToLoginScreen";
-            this.btnBackToLoginScreen.Size = new System.Drawing.Size(138, 27);
-            this.btnBackToLoginScreen.TabIndex = 10;
-            this.btnBackToLoginScreen.Text = "Login Screen";
-            this.btnBackToLoginScreen.UseVisualStyleBackColor = true;
-            this.btnBackToLoginScreen.Click += new System.EventHandler(this.btnBackToLoginScreen_Click);
             // 
             // pictureBox3
             // 
@@ -324,9 +288,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panelLogin;
-        private System.Windows.Forms.Button btnBackToLoginScreen;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button btnCreateNewAccount;
         private System.Windows.Forms.Label lblIvalidUsername;
         private System.Windows.Forms.Label lblInvalidPassword;
         private System.Windows.Forms.Label lblBloquedUser;

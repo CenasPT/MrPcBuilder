@@ -18,7 +18,6 @@ namespace MrPcBuilder_project
         private void LogIn_Load(object sender, EventArgs e)
         {
             Clean();
-            btnBackToLoginScreen.Visible = false;
             lblIvalidUsername.Text = string.Empty;
             lblInvalidPassword.Text = string.Empty;
             lblBloquedUser.Text = string.Empty;
@@ -88,43 +87,6 @@ namespace MrPcBuilder_project
                 btnLogin_Click(sender, e);
                 e.Handled = true;
             }
-        }
-
-        private void btnCreateNewAccount_Click(object sender, EventArgs e)
-        {
-            lblLogin.Visible = false;
-            lblUserName.Visible = false;
-            lblPassword.Visible = false;
-            btnCreateNewAccount.Visible = false;
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            txtUserName.Visible = false;
-            txtPassword.Visible = false;
-            btnLogin.Visible = false;
-
-            panelLogin.Controls.Add(newEmployeeAccControl);
-            newEmployeeAccControl.Dock = DockStyle.Fill;
-            newEmployeeAccControl.BringToFront();
-            btnBackToLoginScreen.Visible = true;
-            btnBackToLoginScreen.BringToFront();
-        }
-
-        private void btnBackToLoginScreen_Click(object sender, EventArgs e)
-        {
-            panelLogin.Controls.Remove(newEmployeeAccControl);
-            btnBackToLoginScreen.Visible = false;
-
-            lblLogin.Visible = true;
-            lblUserName.Visible = true;
-            lblPassword.Visible = true;
-            btnCreateNewAccount.Visible = true;
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
-            txtUserName.Visible = true;
-            txtPassword.Visible = true;
-            btnLogin.Visible = true;
-
-            txtUserName.Focus();
         }
 
         private void LogInForm_Shown(object sender, EventArgs e)

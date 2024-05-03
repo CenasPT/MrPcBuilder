@@ -25,6 +25,7 @@ namespace MrPcBuilder_project
             UpdateStatusCounter();
             timer1.Start();
             lblDateToday.Text = DateTime.Now.ToLongDateString();
+            panelEditPersonalAcc2.Visible = false;
         }
 
         // BUILDS STATUS
@@ -43,6 +44,12 @@ namespace MrPcBuilder_project
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblClock.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        // EDIT PERSONAL ACCOUNT
+        private void btnPersonalAccount_Click(object sender, EventArgs e)
+        {
+            panelEditPersonalAcc2.Visible = true;
         }
     }
 }

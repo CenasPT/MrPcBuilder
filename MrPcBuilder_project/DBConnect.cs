@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace MrPcBuilder_project
 {
@@ -120,7 +121,7 @@ namespace MrPcBuilder_project
             fail_message = 0;
             try
             { 
-                // check user status (login fails)
+                // check if username exists and status (login fails)
                 string queryStatus = "select fails from employee_login where username = '" + username + "';";
                 object result = SimpleExecuteScalar(queryStatus);
 
@@ -129,45 +130,50 @@ namespace MrPcBuilder_project
                     fail_message = 1;
                     return false;
                 }
+
+                int fails = int.Parse(result.ToString());
+
+                if (fails >= 5)
+                {
+                    string queryUpdateStatus = "update employee_login set user_status = 'Inactive' where username = '" + username + "';";
+                    SimpleExecuteNonQuery(queryUpdateStatus);
+                    fail_message = 3;
+                    return false;
+                }
+
+                // Get Role to check if it is admin or not
+                string queryGetID = "select id_employee_login from employee_login where username = '" + username + "';";
+                int ID_Login = Convert.ToInt32(SimpleExecuteScalar(queryGetID));
+
+                string queryIDE = "select id_employee from employee where id_employee_login = '" + ID_Login + "';";
+                int ID_Employee = int.Parse(SimpleExecuteScalar(queryIDE).ToString());
+
+                string queryRole = "select role_name from employee_view where id_employee = '" + ID_Employee + "';";
+                role = SimpleExecuteScalar(queryRole).ToString();
+
+
+                // check credentials if username is correct and not blocked
+                string queryLogin = "select id_employee_login from employee_login where username = '" + username + "' and user_password = '" + password + "' and user_status = 'Active';";
+                object result2 = SimpleExecuteScalar(queryLogin);
+
+                if (result2 != null)
+                {
+                    string queryName = "select name_employee from employee_view where id_employee = '" + ID_Employee + "';";
+                    nameOfUser = SimpleExecuteScalar(queryName).ToString();
+
+                    fails = 0;
+                    flag = true;
+                }
                 else
                 {
-                    int fails = int.Parse(result.ToString());
-
-                    if (fails >= 5)
+                    if (role != "Administrator")
                     {
-                        string queryUpdateStatus = "update employee_login set user_status = 'Inactive' where username = '" + username + "';";
-                        SimpleExecuteNonQuery(queryUpdateStatus);
-
-                        fail_message = 3;
-                        return false;
+                        fails++;         
                     }
-
-                    // check credentials if user is not blocked
-                    string queryLogin = "select id_employee_login from employee_login where username = '" + username + "' and user_password = '" + password + "' and user_status = 'Active';";
-                    object result2 = SimpleExecuteScalar(queryLogin);
-
-                    if (result2 != null)
-                    {
-                        string queryID = "select id_employee from employee where id_employee_login = '" + result2 + "';";
-                        int idEmployee = int.Parse(SimpleExecuteScalar(queryID).ToString());
-
-                        string queryName = "select name_employee from employee_view where id_employee = '" + idEmployee + "';";
-                        nameOfUser = SimpleExecuteScalar(queryName).ToString();
-
-                        string queryRole = "select role_name from employee_view where id_employee = '" + idEmployee + "';";
-                        role = SimpleExecuteScalar(queryRole).ToString();
-
-                        fails = 0;
-                        flag = true;
-                    }
-                    else
-                    {
-                        fails++;
-                        fail_message = 2;
-                    }
-                    string queryUpdateFails = "update employee_login set fails = '" + fails + "' where username = '" + username + "';";
-                    SimpleExecuteNonQuery(queryUpdateFails);
+                    fail_message = 2;
                 }
+                string queryUpdateFails = "update employee_login set fails = '" + fails + "' where username = '" + username + "';";
+                SimpleExecuteNonQuery(queryUpdateFails);
             }
             catch (MySqlException ex)
             {
@@ -321,7 +327,7 @@ namespace MrPcBuilder_project
             {
                 if (OpenConnection())
                 {
-                    string query = "select distinct role_name from employee_role;";
+                    string query = "select distinct role_name from employee_role where role_name <> 'Administrator';";
                     MySqlCommand cmd = new MySqlCommand(query, connection);
                     MySqlDataReader dr = cmd.ExecuteReader();
                     while (dr.Read())
@@ -960,9 +966,19 @@ namespace MrPcBuilder_project
         public bool InsertNewClient(string name, string last_name, string street, string zip, string country, string contact, string email, string tax_id, string username, string password)
         {
             bool flag = false;
-            string queryLogin = "insert into customer_login (username, user_password) values ('" + username + "','" + password + "');";
 
-            flag = SimpleExecuteNonQuery(queryLogin);
+            string queryCheckEmail = "select count(*) from customer where email = '" + email + "';";
+            int exists = Convert.ToInt32(SimpleExecuteScalar(queryCheckEmail));
+
+            if (exists == 0)
+            {
+                string queryLogin = "insert into customer_login (username, user_password) values ('" + username + "','" + password + "');";
+                flag = SimpleExecuteNonQuery(queryLogin);
+            }
+            else
+            {
+                MessageBox.Show("Email already exists!");
+            }
 
             if (flag)
             {
@@ -1154,9 +1170,19 @@ namespace MrPcBuilder_project
         public bool InsertNewEmployee(string name, string role, string email, string tax_id, string username, string password)
         {
             bool flag = false;
-            string queryLogin = "insert into employee_login (username, user_password) values ('" + username + "','" + password + "');";
 
-            flag = SimpleExecuteNonQuery(queryLogin);
+            string queryCheckEmail = "select count(*) from employee where email = '" + email + "';";
+            int exists = Convert.ToInt32(SimpleExecuteScalar(queryCheckEmail));
+
+            if (exists == 0)
+            {
+                string queryLogin = "insert into employee_login (username, user_password) values ('" + username + "','" + password + "');";
+                flag = SimpleExecuteNonQuery(queryLogin);
+            }
+            else
+            {
+                MessageBox.Show("Email already exists!");
+            }
 
             if (flag)
             {
@@ -1266,14 +1292,26 @@ namespace MrPcBuilder_project
             return flag;
         }
 
+        public bool DeactivateEmployeeAccount(string id_search)
+        {
+            string querySearch = "select id_employee_login from employee where id_employee = '" + id_search + "';";
+            string id_login = SimpleExecuteScalar(querySearch).ToString();
+
+            string queryBlock = "update employee_login set " +
+                                "user_status = 'Inactive' " +
+                                "where id_employee_login = '" + id_login + "';";
+
+            bool flag = SimpleExecuteNonQuery(queryBlock);
+            return flag;
+        }
+
         public bool RegenerateEmployeeLogin(string id_search, string username, string password)
         {
-            bool flag = false;
             string query = "select id_employee_login from employee where id_employee = '" + id_search + "';";
             string id_login = SimpleExecuteScalar(query).ToString();
 
             string queryLoginUpdate = "update employee_login set username = '" + username + "', user_password = '" + password + "', fails = '0', user_status = 'Active' where id_employee_login = '" + id_login + "';";
-            flag = SimpleExecuteNonQuery(queryLoginUpdate);
+            bool flag = SimpleExecuteNonQuery(queryLoginUpdate);
             return flag;
         }
 

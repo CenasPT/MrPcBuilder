@@ -138,6 +138,17 @@ namespace MrPcBuilder_project
             nudEmployeeID.Focus();
         }
 
+        private void btnDeactivateAcc_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("This will DEACTIVATE this employee Account!\nAre You Sure?", "Confirmation", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                string id = nudEmployeeID.Value.ToString();
+                conn.DeactivateEmployeeAccount(id);
+                btnCancel_Click(sender, e);
+            }
+        }
+
         // LIMIT INPUT TO ONLY DIGITS
         private void txtEditTax_IDEmployee_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -191,6 +202,6 @@ namespace MrPcBuilder_project
             btnCancel_Click(sender, e);
             Global.DeactivateEditing(panelEditEmployee3);
             lblBloquedAccount.Visible = false;
-        }
+        }        
     }
 }
