@@ -8,7 +8,7 @@ namespace MrPcBuilder_project
     {
         DBConnect connection = new DBConnect();
         public string nameOfUser = "";
-        public string position = "";
+        public string role = "";
         NewEmployeeAccControl newEmployeeAccControl = new NewEmployeeAccControl();
         public LogInForm()
         {
@@ -37,7 +37,7 @@ namespace MrPcBuilder_project
             }else if (string.IsNullOrEmpty(txtPassword.Text))
             {
                 lblInvalidPassword.Text = "Insert a password!";
-            }else if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text, ref nameOfUser, ref position, ref fail_message))
+            }else if (connection.ValidateLogin(txtUserName.Text, txtPassword.Text, ref nameOfUser, ref role, ref fail_message))
             {
                 DialogResult = DialogResult.OK;  
             }

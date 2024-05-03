@@ -198,6 +198,22 @@ from
 	employee
 left join employee_login on	employee.id_employee_login = employee_login.id_employee_login
 left join employee_role on employee.id_role = employee_role.id_role;
+--
+create view customer_view as
+select
+    customer.id_customer,
+	customer.name_customer,
+    customer.last_name_customer,
+    customer.email,
+    customer.phone_number,
+    customer.tax_id,
+    customer.street_customer,
+    customer.zipcode_customer,
+    customer.country_customer,
+    customer_login.user_status
+from
+	customer
+left join customer_login on	customer.id_customer_login = customer_login.id_customer_login;
 
 -- INSERT ADMIN TO DATABASE
 INSERT INTO employee_login (username, user_password) VALUES ('admin', 'admin');

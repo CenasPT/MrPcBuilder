@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panelEditEmployee2 = new System.Windows.Forms.Panel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.cbEditRoleEmployee = new System.Windows.Forms.ComboBox();
             this.txtEditTax_IDEmployee = new System.Windows.Forms.TextBox();
             this.lblEditRoleEmployee = new System.Windows.Forms.Label();
             this.lblEditTax_IDEmployee = new System.Windows.Forms.Label();
@@ -43,11 +45,20 @@
             this.nudEmployeeID = new System.Windows.Forms.NumericUpDown();
             this.lblID = new System.Windows.Forms.Label();
             this.lblEditEmployeeTitle = new System.Windows.Forms.Label();
-            this.cbEditRoleEmployee = new System.Windows.Forms.ComboBox();
-            this.btnCancel = new System.Windows.Forms.Button();
+            this.panelEditEmployee3 = new System.Windows.Forms.Panel();
+            this.btnReactivateAcc = new System.Windows.Forms.Button();
+            this.txtPassEmployee = new System.Windows.Forms.TextBox();
+            this.lblPassEmployee = new System.Windows.Forms.Label();
+            this.lblUsernameEmployee = new System.Windows.Forms.Label();
+            this.txtUsernameEmployee = new System.Windows.Forms.TextBox();
+            this.lblLoginInfoClient = new System.Windows.Forms.Label();
+            this.btnCancelNewLogin = new System.Windows.Forms.Button();
+            this.btnSaveEmployeeAcc = new System.Windows.Forms.Button();
+            this.lblBloquedAccount = new System.Windows.Forms.Label();
             this.panelEditEmployee2.SuspendLayout();
             this.panelEditEmployee1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudEmployeeID)).BeginInit();
+            this.panelEditEmployee3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelEditEmployee2
@@ -68,6 +79,30 @@
             this.panelEditEmployee2.Name = "panelEditEmployee2";
             this.panelEditEmployee2.Size = new System.Drawing.Size(696, 151);
             this.panelEditEmployee2.TabIndex = 1;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Location = new System.Drawing.Point(356, 109);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(138, 27);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // cbEditRoleEmployee
+            // 
+            this.cbEditRoleEmployee.FormattingEnabled = true;
+            this.cbEditRoleEmployee.Location = new System.Drawing.Point(356, 72);
+            this.cbEditRoleEmployee.Name = "cbEditRoleEmployee";
+            this.cbEditRoleEmployee.Size = new System.Drawing.Size(306, 21);
+            this.cbEditRoleEmployee.TabIndex = 7;
             // 
             // txtEditTax_IDEmployee
             // 
@@ -212,9 +247,9 @@
             this.lblID.ForeColor = System.Drawing.Color.White;
             this.lblID.Location = new System.Drawing.Point(46, 33);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(47, 13);
+            this.lblID.Size = new System.Drawing.Size(67, 13);
             this.lblID.TabIndex = 1;
-            this.lblID.Text = "Client ID";
+            this.lblID.Text = "Employee ID";
             // 
             // lblEditEmployeeTitle
             // 
@@ -227,34 +262,134 @@
             this.lblEditEmployeeTitle.TabIndex = 0;
             this.lblEditEmployeeTitle.Text = "Edit Employee Acc";
             // 
-            // cbEditRoleEmployee
+            // panelEditEmployee3
             // 
-            this.cbEditRoleEmployee.FormattingEnabled = true;
-            this.cbEditRoleEmployee.Location = new System.Drawing.Point(356, 72);
-            this.cbEditRoleEmployee.Name = "cbEditRoleEmployee";
-            this.cbEditRoleEmployee.Size = new System.Drawing.Size(306, 21);
-            this.cbEditRoleEmployee.TabIndex = 7;
+            this.panelEditEmployee3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
+            this.panelEditEmployee3.Controls.Add(this.lblBloquedAccount);
+            this.panelEditEmployee3.Controls.Add(this.btnReactivateAcc);
+            this.panelEditEmployee3.Controls.Add(this.txtPassEmployee);
+            this.panelEditEmployee3.Controls.Add(this.lblPassEmployee);
+            this.panelEditEmployee3.Controls.Add(this.lblUsernameEmployee);
+            this.panelEditEmployee3.Controls.Add(this.txtUsernameEmployee);
+            this.panelEditEmployee3.Controls.Add(this.lblLoginInfoClient);
+            this.panelEditEmployee3.Controls.Add(this.btnCancelNewLogin);
+            this.panelEditEmployee3.Controls.Add(this.btnSaveEmployeeAcc);
+            this.panelEditEmployee3.Location = new System.Drawing.Point(65, 313);
+            this.panelEditEmployee3.Name = "panelEditEmployee3";
+            this.panelEditEmployee3.Size = new System.Drawing.Size(696, 166);
+            this.panelEditEmployee3.TabIndex = 2;
             // 
-            // btnCancel
+            // btnReactivateAcc
             // 
-            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(356, 109);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(138, 27);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.btnReactivateAcc.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnReactivateAcc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnReactivateAcc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnReactivateAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReactivateAcc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReactivateAcc.ForeColor = System.Drawing.Color.White;
+            this.btnReactivateAcc.Location = new System.Drawing.Point(441, 55);
+            this.btnReactivateAcc.Name = "btnReactivateAcc";
+            this.btnReactivateAcc.Size = new System.Drawing.Size(138, 27);
+            this.btnReactivateAcc.TabIndex = 10;
+            this.btnReactivateAcc.Text = "Reactivate";
+            this.btnReactivateAcc.UseVisualStyleBackColor = true;
+            this.btnReactivateAcc.Click += new System.EventHandler(this.btnReactivateAcc_Click);
+            // 
+            // txtPassEmployee
+            // 
+            this.txtPassEmployee.Location = new System.Drawing.Point(27, 116);
+            this.txtPassEmployee.MaxLength = 128;
+            this.txtPassEmployee.Name = "txtPassEmployee";
+            this.txtPassEmployee.Size = new System.Drawing.Size(306, 20);
+            this.txtPassEmployee.TabIndex = 14;
+            // 
+            // lblPassEmployee
+            // 
+            this.lblPassEmployee.AutoSize = true;
+            this.lblPassEmployee.ForeColor = System.Drawing.Color.White;
+            this.lblPassEmployee.Location = new System.Drawing.Point(31, 98);
+            this.lblPassEmployee.Name = "lblPassEmployee";
+            this.lblPassEmployee.Size = new System.Drawing.Size(60, 13);
+            this.lblPassEmployee.TabIndex = 13;
+            this.lblPassEmployee.Text = "Password *";
+            // 
+            // lblUsernameEmployee
+            // 
+            this.lblUsernameEmployee.AutoSize = true;
+            this.lblUsernameEmployee.ForeColor = System.Drawing.Color.White;
+            this.lblUsernameEmployee.Location = new System.Drawing.Point(31, 55);
+            this.lblUsernameEmployee.Name = "lblUsernameEmployee";
+            this.lblUsernameEmployee.Size = new System.Drawing.Size(62, 13);
+            this.lblUsernameEmployee.TabIndex = 11;
+            this.lblUsernameEmployee.Text = "Username *";
+            // 
+            // txtUsernameEmployee
+            // 
+            this.txtUsernameEmployee.Location = new System.Drawing.Point(27, 73);
+            this.txtUsernameEmployee.MaxLength = 15;
+            this.txtUsernameEmployee.Name = "txtUsernameEmployee";
+            this.txtUsernameEmployee.Size = new System.Drawing.Size(306, 20);
+            this.txtUsernameEmployee.TabIndex = 12;
+            // 
+            // lblLoginInfoClient
+            // 
+            this.lblLoginInfoClient.AutoSize = true;
+            this.lblLoginInfoClient.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLoginInfoClient.ForeColor = System.Drawing.Color.White;
+            this.lblLoginInfoClient.Location = new System.Drawing.Point(23, 23);
+            this.lblLoginInfoClient.Name = "lblLoginInfoClient";
+            this.lblLoginInfoClient.Size = new System.Drawing.Size(137, 20);
+            this.lblLoginInfoClient.TabIndex = 9;
+            this.lblLoginInfoClient.Text = "Login Information";
+            // 
+            // btnCancelNewLogin
+            // 
+            this.btnCancelNewLogin.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCancelNewLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnCancelNewLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnCancelNewLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelNewLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelNewLogin.ForeColor = System.Drawing.Color.White;
+            this.btnCancelNewLogin.Location = new System.Drawing.Point(524, 109);
+            this.btnCancelNewLogin.Name = "btnCancelNewLogin";
+            this.btnCancelNewLogin.Size = new System.Drawing.Size(138, 27);
+            this.btnCancelNewLogin.TabIndex = 16;
+            this.btnCancelNewLogin.Text = "Canlcel";
+            this.btnCancelNewLogin.UseVisualStyleBackColor = true;
+            this.btnCancelNewLogin.Click += new System.EventHandler(this.btnCancelNewLogin_Click);
+            // 
+            // btnSaveEmployeeAcc
+            // 
+            this.btnSaveEmployeeAcc.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnSaveEmployeeAcc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnSaveEmployeeAcc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSaveEmployeeAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveEmployeeAcc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveEmployeeAcc.ForeColor = System.Drawing.Color.White;
+            this.btnSaveEmployeeAcc.Location = new System.Drawing.Point(360, 109);
+            this.btnSaveEmployeeAcc.Name = "btnSaveEmployeeAcc";
+            this.btnSaveEmployeeAcc.Size = new System.Drawing.Size(138, 27);
+            this.btnSaveEmployeeAcc.TabIndex = 15;
+            this.btnSaveEmployeeAcc.Text = "Save";
+            this.btnSaveEmployeeAcc.UseVisualStyleBackColor = true;
+            this.btnSaveEmployeeAcc.Click += new System.EventHandler(this.btnSaveEmployeeAcc_Click);
+            // 
+            // lblBloquedAccount
+            // 
+            this.lblBloquedAccount.AutoSize = true;
+            this.lblBloquedAccount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBloquedAccount.ForeColor = System.Drawing.Color.Red;
+            this.lblBloquedAccount.Location = new System.Drawing.Point(456, 23);
+            this.lblBloquedAccount.Name = "lblBloquedAccount";
+            this.lblBloquedAccount.Size = new System.Drawing.Size(110, 17);
+            this.lblBloquedAccount.TabIndex = 17;
+            this.lblBloquedAccount.Text = "Bloqued Account!";
             // 
             // EditEmployeeControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panelEditEmployee3);
             this.Controls.Add(this.panelEditEmployee2);
             this.Controls.Add(this.panelEditEmployee1);
             this.Name = "EditEmployeeControl";
@@ -265,6 +400,8 @@
             this.panelEditEmployee1.ResumeLayout(false);
             this.panelEditEmployee1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudEmployeeID)).EndInit();
+            this.panelEditEmployee3.ResumeLayout(false);
+            this.panelEditEmployee3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -288,5 +425,15 @@
         private System.Windows.Forms.Label lblEditEmployeeTitle;
         private System.Windows.Forms.ComboBox cbEditRoleEmployee;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Panel panelEditEmployee3;
+        private System.Windows.Forms.Button btnReactivateAcc;
+        private System.Windows.Forms.TextBox txtPassEmployee;
+        private System.Windows.Forms.Label lblPassEmployee;
+        private System.Windows.Forms.Label lblUsernameEmployee;
+        private System.Windows.Forms.TextBox txtUsernameEmployee;
+        private System.Windows.Forms.Label lblLoginInfoClient;
+        private System.Windows.Forms.Button btnCancelNewLogin;
+        private System.Windows.Forms.Button btnSaveEmployeeAcc;
+        private System.Windows.Forms.Label lblBloquedAccount;
     }
 }

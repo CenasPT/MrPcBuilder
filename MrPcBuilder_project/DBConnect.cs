@@ -1088,10 +1088,10 @@ namespace MrPcBuilder_project
         }
 
         // CLIENTS * Select
-        public bool SearchClient(string id_search, ref string name, ref string lastname, ref string email, ref string contact, ref string tax_id, ref string street, ref string zip, ref string country)
+        public bool SearchClient(string id_search, ref string name, ref string lastname, ref string email, ref string contact, ref string tax_id, ref string street, ref string zip, ref string country, ref string user_status)
         {
             bool flag = false;
-            string query = "select name_customer, last_name_customer, email, phone_number, tax_id, street_customer, zipcode_customer, country_customer from customer where id_customer = '" + id_search + "';";
+            string query = "select name_customer, last_name_customer, email, phone_number, tax_id, street_customer, zipcode_customer, country_customer, user_status from customer_view where id_customer = '" + id_search + "';";
 
             try
             {
@@ -1109,6 +1109,7 @@ namespace MrPcBuilder_project
                         street = dataReader[5].ToString();
                         zip = dataReader[6].ToString();
                         country = dataReader[7].ToString();
+                        user_status = dataReader[8].ToString();
                         flag = true;
                     }
                     dataReader.Close();
@@ -1135,6 +1136,16 @@ namespace MrPcBuilder_project
                            "where id_customer = '" + id + "';";
 
             flag = SimpleExecuteNonQuery(query);
+            return flag;
+        }
+        public bool RegenerateClientLogin(string id_search, string username, string password)
+        {
+            bool flag = false;
+            string query = "select id_customer_login from customer where id_customer = '" + id_search + "';";
+            string id_login = SimpleExecuteScalar(query).ToString();
+
+            string queryLoginUpdate = "update customer_login set username = '" + username + "', user_password = '" + password + "', fails = '0', user_status = 'Active' where id_customer_login = '" + id_login + "';";
+            flag = SimpleExecuteNonQuery(queryLoginUpdate);
             return flag;
         }
 
@@ -1207,10 +1218,10 @@ namespace MrPcBuilder_project
         }
 
         // ADMIN * SEARCH EMPLOYEES
-        public bool SearchEmployee(string id_search, ref string name, ref string role, ref string email, ref string tax_id)
+        public bool SearchEmployee(string id_search, ref string name, ref string role, ref string email, ref string tax_id, ref string user_status)
         {
             bool flag = false;
-            string query = "select name_employee, role_name, email, tax_id from employee_view where id_employee = '" + id_search + "';";
+            string query = "select name_employee, role_name, email, tax_id, user_status from employee_view where id_employee = '" + id_search + "';";
 
             try
             {
@@ -1224,6 +1235,7 @@ namespace MrPcBuilder_project
                         role = dataReader[1].ToString();
                         email = dataReader[2].ToString();
                         tax_id = dataReader[3].ToString();
+                        user_status = dataReader[4].ToString();
                         flag = true;
                     }
                     dataReader.Close();
@@ -1252,7 +1264,18 @@ namespace MrPcBuilder_project
 
             flag = SimpleExecuteNonQuery(query);
             return flag;
-        }        
+        }
+
+        public bool RegenerateEmployeeLogin(string id_search, string username, string password)
+        {
+            bool flag = false;
+            string query = "select id_employee_login from employee where id_employee = '" + id_search + "';";
+            string id_login = SimpleExecuteScalar(query).ToString();
+
+            string queryLoginUpdate = "update employee_login set username = '" + username + "', user_password = '" + password + "', fails = '0', user_status = 'Active' where id_employee_login = '" + id_login + "';";
+            flag = SimpleExecuteNonQuery(queryLoginUpdate);
+            return flag;
+        }
 
         // ADMIN * Insert Employee ROLES
         public bool InsertNewCompanyRole(string new_role_name)
@@ -1277,8 +1300,18 @@ namespace MrPcBuilder_project
         public bool DeleteCompanyRole(string role_name)
         {
             bool flag = false;
-            string query = "delete from employee_role where role_name = '" + role_name + "';";
-            flag = SimpleExecuteNonQuery(query);
+            string query = "SELECT COUNT(*) FROM employee_view WHERE role_name = '" + role_name + "';";
+            int count = Convert.ToInt32(SimpleExecuteScalar(query));
+
+            if (count == 0)
+            {
+                string queryDelete = "delete from employee_role where role_name = '" + role_name + "';";
+                flag = SimpleExecuteNonQuery(queryDelete);
+            }
+            else
+            {
+                MessageBox.Show("Role is being used / associated with employees.");
+            }
             return flag;
         }
 
@@ -1303,8 +1336,18 @@ namespace MrPcBuilder_project
         public bool DeletePaymentMethod(string payment_method)
         {
             bool flag = false;
-            string query = "delete from payment_method where payment_method = '" + payment_method + "';";
-            flag = SimpleExecuteNonQuery(query);
+            string query = "SELECT COUNT(*) FROM build_view WHERE payment_method = '" + payment_method + "';";            
+            int count = Convert.ToInt32(SimpleExecuteScalar(query));
+
+            if (count == 0)
+            {
+                string queryDelete = "delete from payment_method where payment_method = '" + payment_method + "';";
+                flag = SimpleExecuteNonQuery(queryDelete);
+            }
+            else
+            {
+                MessageBox.Show("Payment Method is being used / associated with builds.");
+            }
             return flag;
         }
     }

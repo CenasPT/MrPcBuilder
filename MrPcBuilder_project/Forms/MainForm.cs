@@ -31,7 +31,7 @@ namespace MrPcBuilder_project
             else
             {
                 panelMain.Controls.Add(homeControl);
-                panelMain.Controls.Add(buildControl);            
+                panelMain.Controls.Add(buildControl);      
                 panelMain.Controls.Add(componentsControl);
                 panelMain.Controls.Add(clientsControl);
                 panelMain.Controls.Add(adminControl);
@@ -43,18 +43,21 @@ namespace MrPcBuilder_project
                 adminControl.Dock = DockStyle.Fill;
 
                 Global.HideAllUserControls(panelMain);
-                homeControl.Visible = true;
-
-                lblUserName.Text = login.nameOfUser;
-                if (login.position == "Administrator")
-                {
-                    btnAdmin.Visible = true;
-                }
-                else
-                {
-                    btnAdmin.Visible = false;
-                }
+                homeControl.Visible = true;                
             }            
+        }
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+            btnHome.Focus();
+            lblUserName.Text = login.nameOfUser;
+            if (login.role == "Administrator")
+            {
+                btnAdmin.Visible = true;
+            }
+            else
+            {
+                btnAdmin.Visible = false;
+            }
         }
 
         // Sidebar Menu Selection
@@ -106,15 +109,7 @@ namespace MrPcBuilder_project
                 else
                 {
                     this.Visible=true;
-                    lblUserName.Text = login.nameOfUser;
-                    if (login.position == "administrator")
-                    {
-                        btnAdmin.Visible = true;
-                    }
-                    else
-                    {
-                        btnAdmin.Visible = false;
-                    }
+                    MainForm_Shown(sender, e);
                 }
             }
             
@@ -169,11 +164,6 @@ namespace MrPcBuilder_project
         private void button1_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
-        }
-
-        private void MainForm_Shown(object sender, EventArgs e)
-        {
-            btnHome.Focus();
-        }
+        }        
     }
 }

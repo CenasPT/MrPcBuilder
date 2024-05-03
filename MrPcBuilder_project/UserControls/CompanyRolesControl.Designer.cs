@@ -323,7 +323,7 @@
             this.lblNewCompanyPosition.AutoSize = true;
             this.lblNewCompanyPosition.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNewCompanyPosition.ForeColor = System.Drawing.Color.White;
-            this.lblNewCompanyPosition.Location = new System.Drawing.Point(87, 21);
+            this.lblNewCompanyPosition.Location = new System.Drawing.Point(90, 21);
             this.lblNewCompanyPosition.Name = "lblNewCompanyPosition";
             this.lblNewCompanyPosition.Size = new System.Drawing.Size(179, 20);
             this.lblNewCompanyPosition.TabIndex = 0;

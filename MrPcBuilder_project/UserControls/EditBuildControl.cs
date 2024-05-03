@@ -302,10 +302,19 @@ namespace MrPcBuilder_project
                 DialogResult result = MessageBox.Show("Delete Component From the List?", "Confirmation", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    ListViewItem item = listViewBuild.CheckedItems[0];
-                    listViewBuild.Items.Remove(listViewBuild.CheckedItems[0]);
-                    listViewBuild.Refresh();
-                    CalculateTotalPriceQuantity();
+                    if (listViewBuild.Items.Count == 1)
+                    {
+                        MessageBox.Show("Build needs at least 1 component!");
+                    }
+                    else
+                    {
+                        ListViewItem item = listViewBuild.CheckedItems[0];
+                        listViewBuild.Items.Remove(listViewBuild.CheckedItems[0]);
+                        listViewBuild.Refresh();
+                        CalculateTotalPriceQuantity();
+                        btnDeleteComponent.Enabled = false;
+                        cbTypeComponent.Focus();
+                    }                                       
                 }
             }
         }

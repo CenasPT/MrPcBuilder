@@ -201,7 +201,7 @@
             this.lblDeletePMTitle.AutoSize = true;
             this.lblDeletePMTitle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDeletePMTitle.ForeColor = System.Drawing.Color.White;
-            this.lblDeletePMTitle.Location = new System.Drawing.Point(106, 16);
+            this.lblDeletePMTitle.Location = new System.Drawing.Point(95, 16);
             this.lblDeletePMTitle.Name = "lblDeletePMTitle";
             this.lblDeletePMTitle.Size = new System.Drawing.Size(179, 20);
             this.lblDeletePMTitle.TabIndex = 0;
@@ -323,7 +323,7 @@
             this.lblEditPMTitle.AutoSize = true;
             this.lblEditPMTitle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEditPMTitle.ForeColor = System.Drawing.Color.White;
-            this.lblEditPMTitle.Location = new System.Drawing.Point(106, 16);
+            this.lblEditPMTitle.Location = new System.Drawing.Point(116, 16);
             this.lblEditPMTitle.Name = "lblEditPMTitle";
             this.lblEditPMTitle.Size = new System.Drawing.Size(161, 20);
             this.lblEditPMTitle.TabIndex = 0;

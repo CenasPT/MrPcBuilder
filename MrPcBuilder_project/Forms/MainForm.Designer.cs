@@ -48,12 +48,13 @@
             this.pbMenuButton = new System.Windows.Forms.PictureBox();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.lblTopPanelTitle = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnX = new System.Windows.Forms.Button();
             this.lblUserName = new System.Windows.Forms.Label();
-            this.lblTopPanelTitle = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panelSidebar.SuspendLayout();
             this.panelAdmin.SuspendLayout();
             this.panelLogout.SuspendLayout();
@@ -64,7 +65,7 @@
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenuButton)).BeginInit();
             this.panelTitleBar.SuspendLayout();
-            this.panelMain.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSidebar
@@ -88,9 +89,10 @@
             // panelAdmin
             // 
             this.panelAdmin.Controls.Add(this.btnAdmin);
+            this.panelAdmin.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelAdmin.Location = new System.Drawing.Point(0, 195);
             this.panelAdmin.Name = "panelAdmin";
-            this.panelAdmin.Size = new System.Drawing.Size(183, 36);
+            this.panelAdmin.Size = new System.Drawing.Size(166, 36);
             this.panelAdmin.TabIndex = 5;
             // 
             // btnAdmin
@@ -145,9 +147,10 @@
             // panelClients
             // 
             this.panelClients.Controls.Add(this.btnclients);
+            this.panelClients.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelClients.Location = new System.Drawing.Point(0, 159);
             this.panelClients.Name = "panelClients";
-            this.panelClients.Size = new System.Drawing.Size(183, 36);
+            this.panelClients.Size = new System.Drawing.Size(166, 36);
             this.panelClients.TabIndex = 4;
             // 
             // btnclients
@@ -173,9 +176,10 @@
             // panelProducts
             // 
             this.panelProducts.Controls.Add(this.btnComponents);
+            this.panelProducts.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelProducts.Location = new System.Drawing.Point(0, 123);
             this.panelProducts.Name = "panelProducts";
-            this.panelProducts.Size = new System.Drawing.Size(183, 36);
+            this.panelProducts.Size = new System.Drawing.Size(166, 36);
             this.panelProducts.TabIndex = 3;
             // 
             // btnComponents
@@ -202,9 +206,10 @@
             // 
             this.panelBuild.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panelBuild.Controls.Add(this.btnBuild);
+            this.panelBuild.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelBuild.Location = new System.Drawing.Point(0, 87);
             this.panelBuild.Name = "panelBuild";
-            this.panelBuild.Size = new System.Drawing.Size(183, 36);
+            this.panelBuild.Size = new System.Drawing.Size(166, 36);
             this.panelBuild.TabIndex = 2;
             // 
             // btnBuild
@@ -230,9 +235,10 @@
             // panelHome
             // 
             this.panelHome.Controls.Add(this.btnHome);
+            this.panelHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHome.Location = new System.Drawing.Point(0, 51);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(183, 36);
+            this.panelHome.Size = new System.Drawing.Size(166, 36);
             this.panelHome.TabIndex = 1;
             // 
             // btnHome
@@ -296,42 +302,64 @@
             // 
             this.panelTitleBar.AutoSize = true;
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
-            this.panelTitleBar.Controls.Add(this.button1);
-            this.panelTitleBar.Controls.Add(this.btnMaximize);
-            this.panelTitleBar.Controls.Add(this.btnX);
-            this.panelTitleBar.Controls.Add(this.lblUserName);
             this.panelTitleBar.Controls.Add(this.lblTopPanelTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(0, 0);
+            this.panelTitleBar.Location = new System.Drawing.Point(166, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1098, 27);
+            this.panelTitleBar.Size = new System.Drawing.Size(1098, 21);
             this.panelTitleBar.TabIndex = 0;
+            // 
+            // lblTopPanelTitle
+            // 
+            this.lblTopPanelTitle.AutoSize = true;
+            this.lblTopPanelTitle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTopPanelTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTopPanelTitle.Location = new System.Drawing.Point(6, 1);
+            this.lblTopPanelTitle.Name = "lblTopPanelTitle";
+            this.lblTopPanelTitle.Size = new System.Drawing.Size(53, 20);
+            this.lblTopPanelTitle.TabIndex = 0;
+            this.lblTopPanelTitle.Text = "HOME";
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(70, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(41, 21);
+            this.button1.TabIndex = 4;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnMaximize
             // 
-            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMaximize.BackgroundImage")));
             this.btnMaximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaximize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMaximize.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximize.Location = new System.Drawing.Point(1015, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(111, 0);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(41, 24);
+            this.btnMaximize.Size = new System.Drawing.Size(41, 21);
             this.btnMaximize.TabIndex = 2;
             this.btnMaximize.UseVisualStyleBackColor = false;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnX
             // 
-            this.btnX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnX.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnX.BackgroundImage")));
             this.btnX.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnX.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnX.FlatAppearance.BorderSize = 0;
             this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnX.Location = new System.Drawing.Point(1056, 0);
+            this.btnX.Location = new System.Drawing.Point(152, 0);
             this.btnX.Name = "btnX";
-            this.btnX.Size = new System.Drawing.Size(41, 24);
+            this.btnX.Size = new System.Drawing.Size(41, 21);
             this.btnX.TabIndex = 3;
             this.btnX.UseVisualStyleBackColor = false;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
@@ -339,50 +367,38 @@
             // lblUserName
             // 
             this.lblUserName.AutoSize = true;
+            this.lblUserName.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserName.ForeColor = System.Drawing.Color.White;
-            this.lblUserName.Location = new System.Drawing.Point(123, 6);
+            this.lblUserName.Location = new System.Drawing.Point(0, 0);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(70, 17);
             this.lblUserName.TabIndex = 1;
             this.lblUserName.Text = "UserName";
             // 
-            // lblTopPanelTitle
-            // 
-            this.lblTopPanelTitle.AutoSize = true;
-            this.lblTopPanelTitle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopPanelTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTopPanelTitle.Location = new System.Drawing.Point(6, 4);
-            this.lblTopPanelTitle.Name = "lblTopPanelTitle";
-            this.lblTopPanelTitle.Size = new System.Drawing.Size(53, 20);
-            this.lblTopPanelTitle.TabIndex = 0;
-            this.lblTopPanelTitle.Text = "HOME";
-            // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMain.Controls.Add(this.panelTitleBar);
+            this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(166, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1098, 681);
             this.panelMain.TabIndex = 0;
             // 
-            // button1
+            // panel1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(974, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(41, 24);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.AutoSize = true;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.lblUserName);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnMaximize);
+            this.panel1.Controls.Add(this.btnX);
+            this.panel1.Location = new System.Drawing.Point(1071, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(193, 21);
+            this.panel1.TabIndex = 2;
             // 
             // MainForm
             // 
@@ -390,6 +406,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelSidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -412,9 +430,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbMenuButton)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-            this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -444,5 +463,6 @@
         private System.Windows.Forms.Button btnX;
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

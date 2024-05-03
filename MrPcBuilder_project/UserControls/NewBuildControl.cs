@@ -235,6 +235,8 @@ namespace MrPcBuilder_project
                     listViewBuild.Items.Remove(listViewBuild.CheckedItems[0]);
                     listViewBuild.Refresh();
                     CalculateTotalPriceQuantity();
+                    btnDeleteComponent.Enabled = false;
+                    cbTypeComponent.Focus();
 
                     if (listViewBuild.Items.Count == 0)
                     {
