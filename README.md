@@ -27,5 +27,3 @@ To use the MrPcBuilder Management Application:
 4. Perform desired actions, such as adding customers, managing components, creating builds, etc.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
