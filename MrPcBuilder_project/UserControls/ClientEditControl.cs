@@ -55,7 +55,10 @@ namespace MrPcBuilder_project
                     Global.ActivateEditing(panelEditClient3);
                     Global.DeactivateEditing(panelEditClient2);
                     Global.DeactivateEditing(panelEditClient1);
+                    lblBloquedAccount.Text = "Bloqued Account!";
+                    lblBloquedAccount.Location = new Point(457, 15);
                     lblBloquedAccount.Visible = true;
+                    btnReactivateAcc.Enabled = true;
                     btnReactivateAcc.Focus();
                 }
             }
@@ -168,7 +171,7 @@ namespace MrPcBuilder_project
                 MessageBox.Show("Attention: Login info will be shown only once. Make sure to save it securely.");
                 btnReactivateAcc.Enabled = false;
                 lblBloquedAccount.Text = "Make sure to save Login info securely.";
-                lblBloquedAccount.Location = new Point(398, 23);
+                lblBloquedAccount.Location = new Point(398, 15);
                 btnSaveNewLogin.Focus();
             }
         }

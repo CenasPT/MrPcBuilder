@@ -53,7 +53,10 @@ namespace MrPcBuilder_project
                     Global.ActivateEditing(panelEditEmployee3);
                     Global.DeactivateEditing(panelEditEmployee2);
                     Global.DeactivateEditing(panelEditEmployee1);
+                    lblBloquedAccount.Text = "Bloqued Account!";
+                    lblBloquedAccount.Location = new Point(456, 23);
                     lblBloquedAccount.Visible = true;
+                    btnReactivateAcc.Enabled = true;
                     btnReactivateAcc.Focus();
                 }                
             }
