@@ -55,6 +55,7 @@
             this.txtUsernameEmployee = new System.Windows.Forms.TextBox();
             this.lblLoginInfoClient = new System.Windows.Forms.Label();
             this.panelEditPersonalAcc2 = new System.Windows.Forms.Panel();
+            this.lblGeneralInfoClient = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.txtEditTax_ID = new System.Windows.Forms.TextBox();
             this.lblEditTax_ID = new System.Windows.Forms.Label();
@@ -63,7 +64,6 @@
             this.lblEditName = new System.Windows.Forms.Label();
             this.txtEditName = new System.Windows.Forms.TextBox();
             this.btnSaveEdit = new System.Windows.Forms.Button();
-            this.lblGeneralInfoClient = new System.Windows.Forms.Label();
             this.panelBuilds.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -259,6 +259,7 @@
             // 
             // panelEditPersonalAcc
             // 
+            this.panelEditPersonalAcc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panelEditPersonalAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
             this.panelEditPersonalAcc.Controls.Add(this.btnPersonalAccount);
             this.panelEditPersonalAcc.Location = new System.Drawing.Point(16, 621);
@@ -288,6 +289,7 @@
             this.txtPassEmployee.Location = new System.Drawing.Point(26, 287);
             this.txtPassEmployee.MaxLength = 128;
             this.txtPassEmployee.Name = "txtPassEmployee";
+            this.txtPassEmployee.PasswordChar = '*';
             this.txtPassEmployee.Size = new System.Drawing.Size(306, 20);
             this.txtPassEmployee.TabIndex = 14;
             // 
@@ -353,6 +355,17 @@
             this.panelEditPersonalAcc2.Size = new System.Drawing.Size(367, 383);
             this.panelEditPersonalAcc2.TabIndex = 5;
             // 
+            // lblGeneralInfoClient
+            // 
+            this.lblGeneralInfoClient.AutoSize = true;
+            this.lblGeneralInfoClient.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGeneralInfoClient.ForeColor = System.Drawing.Color.White;
+            this.lblGeneralInfoClient.Location = new System.Drawing.Point(22, 15);
+            this.lblGeneralInfoClient.Name = "lblGeneralInfoClient";
+            this.lblGeneralInfoClient.Size = new System.Drawing.Size(152, 20);
+            this.lblGeneralInfoClient.TabIndex = 15;
+            this.lblGeneralInfoClient.Text = "General Information";
+            // 
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.White;
@@ -367,6 +380,7 @@
             this.btnCancel.TabIndex = 10;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // txtEditTax_ID
             // 
@@ -436,17 +450,7 @@
             this.btnSaveEdit.TabIndex = 8;
             this.btnSaveEdit.Text = "Save";
             this.btnSaveEdit.UseVisualStyleBackColor = true;
-            // 
-            // lblGeneralInfoClient
-            // 
-            this.lblGeneralInfoClient.AutoSize = true;
-            this.lblGeneralInfoClient.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGeneralInfoClient.ForeColor = System.Drawing.Color.White;
-            this.lblGeneralInfoClient.Location = new System.Drawing.Point(22, 15);
-            this.lblGeneralInfoClient.Name = "lblGeneralInfoClient";
-            this.lblGeneralInfoClient.Size = new System.Drawing.Size(152, 20);
-            this.lblGeneralInfoClient.TabIndex = 15;
-            this.lblGeneralInfoClient.Text = "General Information";
+            this.btnSaveEdit.Click += new System.EventHandler(this.btnSaveEdit_Click);
             // 
             // HomeControl
             // 

@@ -12,7 +12,6 @@ namespace MrPcBuilder_project
         ComponentsControl componentsControl = new ComponentsControl();
         ClientsControl clientsControl = new ClientsControl();
         AdminControl adminControl = new AdminControl();
-                
         bool sidebarExpand = true;        
 
         public MainForm()
@@ -50,6 +49,7 @@ namespace MrPcBuilder_project
         {
             btnHome.Focus();
             lblUserName.Text = login.nameOfUser;
+            homeControl.id_employee = login.idEmployee;
             if (login.role == "Administrator")
             {
                 btnAdmin.Visible = true;

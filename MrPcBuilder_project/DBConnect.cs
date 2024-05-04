@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace MrPcBuilder_project
 {
@@ -115,7 +116,7 @@ namespace MrPcBuilder_project
         }
 
         // LOGIN VALIDATION
-        public bool ValidateLogin(string username, string password, ref string nameOfUser, ref string role, ref int fail_message)
+        public bool ValidateLogin(string username, string password, ref string nameOfUser, ref string role, ref int idEmployee, ref int fail_message)
         {
             bool flag = false;
             fail_message = 0;
@@ -146,9 +147,9 @@ namespace MrPcBuilder_project
                 int ID_Login = Convert.ToInt32(SimpleExecuteScalar(queryGetID));
 
                 string queryIDE = "select id_employee from employee where id_employee_login = '" + ID_Login + "';";
-                int ID_Employee = int.Parse(SimpleExecuteScalar(queryIDE).ToString());
+                idEmployee = int.Parse(SimpleExecuteScalar(queryIDE).ToString());
 
-                string queryRole = "select role_name from employee_view where id_employee = '" + ID_Employee + "';";
+                string queryRole = "select role_name from employee_view where id_employee = '" + idEmployee + "';";
                 role = SimpleExecuteScalar(queryRole).ToString();
 
 
@@ -158,7 +159,7 @@ namespace MrPcBuilder_project
 
                 if (result2 != null)
                 {
-                    string queryName = "select name_employee from employee_view where id_employee = '" + ID_Employee + "';";
+                    string queryName = "select name_employee from employee_view where id_employee = '" + idEmployee + "';";
                     nameOfUser = SimpleExecuteScalar(queryName).ToString();
 
                     fails = 0;
@@ -182,7 +183,7 @@ namespace MrPcBuilder_project
             return flag;
         }
 
-        // HOME SCREEN
+        // HOME SCREEN * Builds Status Counter
         public void BuildsStatusCounter(out string builds_pending, out string builds_in_progress, out string builds_completed)
         {
             string query = "select count(*) from build_order where build_status = 'Pending';";
@@ -193,6 +194,74 @@ namespace MrPcBuilder_project
 
             string query3 = "select count(*) from build_order where build_status = 'Completed';";
             builds_completed = SimpleExecuteScalar(query3).ToString();            
+        }
+        // HOME SCREEN * Personal Account Details
+        public bool FillPersonalAccountDetails(int id_search, ref string name, ref string email, ref string tax_id, ref string username, ref string password)
+        {
+            bool flag = false;
+            string id_login = "";
+            string query = "select id_employee_login, name_employee, email, tax_id from employee where id_employee = '" + id_search + "';";
+
+            try
+            {
+                if (OpenConnection())
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    while (dataReader.Read())
+                    {
+                        id_login = dataReader[0].ToString();
+                        name = dataReader[1].ToString();
+                        email = dataReader[2].ToString();
+                        tax_id = dataReader[3].ToString();
+                        flag = true;
+                    }
+                    dataReader.Close();
+
+                    string queryLoginInfo = "select username, user_password from employee_login where id_employee_login = '" + id_login + "';";
+                    cmd = new MySqlCommand(queryLoginInfo, connection);
+                    dataReader = cmd.ExecuteReader();
+                    while (dataReader.Read())
+                    {
+                        username = dataReader[0].ToString();
+                        password = dataReader[1].ToString();
+                        flag = true;
+                    }
+                    dataReader.Close();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
+            return flag;
+        }
+        public bool UpdatePersonalAccountsDetails(int id, string name, string email, string tax_id, string username, string password)
+        {
+            bool flag = false;
+            string query = "select id_employee_login from employee where id_employee = '" + id + "';";
+            int id_login = Convert.ToInt32(SimpleExecuteScalar(query));
+
+            if (id_login != 0)
+            {
+                string queryupdate = "update employee set " +
+                                     "name_employee = '" + name + "', email = '" + email + "', tax_id = '" + tax_id + "' " +
+                                     "where id_employee = '" + id + "';";
+                flag = SimpleExecuteNonQuery(queryupdate);
+
+                if (flag)
+                {
+                    string queryupdatelogin = "update employee_login set " +
+                                     "username = '" + username + "', user_password = '" + password + "' " +
+                                     "where id_employee_login = '" + id_login + "';";
+                    flag = SimpleExecuteNonQuery(queryupdatelogin);
+                }
+            }
+            return flag;
         }
 
         // GLOBAL METHODS * Methods than can be used in multiple places
