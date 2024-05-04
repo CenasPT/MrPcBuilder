@@ -8,6 +8,7 @@ This is a Beta version for demonstration purposes only.
 - [Installation](#installation)
 - [Features](#features)
 - [Usage](#usage)
+- [Prints](#prints)
 
 ## Installation
 
