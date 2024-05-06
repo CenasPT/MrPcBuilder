@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\clientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\clienteditcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\clientslistcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\clientslistcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\clientslistcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:usercontrols\\homecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\usercontrols\\editcomponentcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -186,11 +186,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "LogInForm.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\LogInForm.cs",
               "RelativeDocumentMoniker": "Forms\\LogInForm.cs",
@@ -202,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "LogInForm.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\LogInForm.cs",
               "RelativeDocumentMoniker": "Forms\\LogInForm.cs",
@@ -215,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
@@ -227,20 +227,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Forms\\MainForm.cs",
               "RelativeToolTip": "Forms\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T22:36:23.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
+              "Title": "HomeControl.cs [Design]",
+              "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\HomeControl.cs",
+              "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs [Design]",
+              "RelativeToolTip": "UserControls\\HomeControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:20:36.169Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs",
               "RelativeDocumentMoniker": "UserControls\\HomeControl.cs",
@@ -248,18 +260,20 @@
               "RelativeToolTip": "UserControls\\HomeControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAIMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:42:32.782Z"
+              "WhenOpened": "2024-04-24T11:42:32.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "BuildControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\BuildControl.cs",
               "RelativeDocumentMoniker": "UserControls\\BuildControl.cs",
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\BuildControl.cs [Design]",
               "RelativeToolTip": "UserControls\\BuildControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:53:12.56Z"
+              "WhenOpened": "2024-04-24T11:53:12.56Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -271,7 +285,8 @@
               "RelativeToolTip": "UserControls\\BuildControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:59:15.106Z"
+              "WhenOpened": "2024-04-24T11:59:15.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -283,17 +298,6 @@
               "RelativeToolTip": "UserControls\\NewBuildControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T17:36:31.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeControl.cs [Design]",
-              "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\HomeControl.cs",
-              "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\HomeControl.cs [Design]",
-              "RelativeToolTip": "UserControls\\HomeControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:20:36.169Z"
             },
             {
               "$type": "Document",
@@ -447,19 +451,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ClientsControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientsControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientsControl.cs",
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientsControl.cs [Design]",
               "RelativeToolTip": "UserControls\\ClientsControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T14:25:17.738Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-26T14:25:17.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ClientsControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientsControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientsControl.cs",
@@ -467,24 +470,22 @@
               "RelativeToolTip": "UserControls\\ClientsControl.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwCgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T14:33:16.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T14:33:16.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ClientNewControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientNewControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientNewControl.cs",
               "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientNewControl.cs [Design]",
               "RelativeToolTip": "UserControls\\ClientNewControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T10:57:51.514Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-28T10:57:51.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ClientNewControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientNewControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientNewControl.cs",
@@ -492,12 +493,11 @@
               "RelativeToolTip": "UserControls\\ClientNewControl.cs",
               "ViewState": "AQIAAFAAAAAAAAAAAAAAAGUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T18:58:34.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T18:58:34.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ClientsListControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientsListControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientsListControl.cs",
@@ -508,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ClientsListControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientsListControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientsListControl.cs",
@@ -520,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ClientEditControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientEditControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientEditControl.cs",
@@ -531,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ClientEditControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\ClientEditControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ClientEditControl.cs",
@@ -543,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AdminControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\AdminControl.cs",
               "RelativeDocumentMoniker": "UserControls\\AdminControl.cs",
@@ -554,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AdminControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\AdminControl.cs",
               "RelativeDocumentMoniker": "UserControls\\AdminControl.cs",
@@ -612,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EditEmployeeControl.cs [Design]",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\EditEmployeeControl.cs",
               "RelativeDocumentMoniker": "UserControls\\EditEmployeeControl.cs",
@@ -623,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EditEmployeeControl.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\UserControls\\EditEmployeeControl.cs",
               "RelativeDocumentMoniker": "UserControls\\EditEmployeeControl.cs",
@@ -681,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "DBConnect.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\DBConnect.cs",
               "RelativeDocumentMoniker": "DBConnect.cs",
@@ -694,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Global.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\Global.cs",
               "RelativeDocumentMoniker": "Global.cs",
@@ -702,8 +702,7 @@
               "RelativeToolTip": "Global.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:34:04.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T12:34:04.605Z"
             }
           ]
         }
