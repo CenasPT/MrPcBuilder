@@ -10,12 +10,4 @@
     <FallbackCulture>pt-BR</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="Forms\LogInForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
 </Project>

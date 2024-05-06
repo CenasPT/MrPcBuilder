@@ -10,7 +10,6 @@ namespace MrPcBuilder_project
         public string nameOfUser = "";
         public string role = "";
         public int idEmployee = 0;
-        NewEmployeeAccControl newEmployeeAccControl = new NewEmployeeAccControl();
         public LogInForm()
         {
             InitializeComponent();

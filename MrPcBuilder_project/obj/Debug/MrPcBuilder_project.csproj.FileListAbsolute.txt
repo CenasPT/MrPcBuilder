@@ -60,3 +60,127 @@ P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\M
 P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditEmployeeControl.resources
 P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewEmployeeAccControl.resources
 P:\CodeProjetos\Projetos_Pessoais\C#\MrPcBuilder\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.CompanyRolesControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe.config
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.pdb
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\BouncyCastle.Cryptography.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.Streams.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Hash.xxHash.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\MySql.Data.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Buffers.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Configuration.ConfigurationManager.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.IO.Pipelines.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Memory.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Numerics.Vectors.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Threading.Tasks.Extensions.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\ZstdSharp.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\BouncyCastle.Cryptography.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.pdb
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.Streams.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Hash.xxHash.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\MySql.Data.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Buffers.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.IO.Pipelines.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Memory.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Numerics.Vectors.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Threading.Tasks.Extensions.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.AssemblyReference.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditEmployeeControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.CompanyRolesControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListEmployeesAccControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewEmployeeAccControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.AdminControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientEditControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientNewControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientsListControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditComponentControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListComponentsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewComponentControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ComponentsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.BuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.HomeControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListBuildsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditBuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.LogInForm.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.MainForm.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewBuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.Properties.Resources.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.PaymentMethodControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.GenerateResource.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.CoreCompileInputs.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuil.12B2518A.Up2Date
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.exe
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto Final - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.pdb
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe.config
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.exe
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\MrPcBuilder_project.pdb
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\BouncyCastle.Cryptography.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.Streams.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Hash.xxHash.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\MySql.Data.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Buffers.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Configuration.ConfigurationManager.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.IO.Pipelines.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Memory.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Numerics.Vectors.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Threading.Tasks.Extensions.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\ZstdSharp.dll
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\BouncyCastle.Cryptography.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.pdb
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\Google.Protobuf.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Compression.LZ4.Streams.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\K4os.Hash.xxHash.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\MySql.Data.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Buffers.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.IO.Pipelines.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Memory.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Numerics.Vectors.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\bin\Debug\System.Threading.Tasks.Extensions.xml
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.AssemblyReference.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditEmployeeControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.CompanyRolesControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListEmployeesAccControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewEmployeeAccControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.AdminControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientEditControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientNewControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ClientsListControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditComponentControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListComponentsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewComponentControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ComponentsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.BuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.HomeControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.ListBuildsControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.EditBuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.LogInForm.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.MainForm.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.NewBuildControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.Properties.Resources.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.PaymentMethodControl.resources
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.GenerateResource.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.csproj.CoreCompileInputs.cache
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuil.12B2518A.Up2Date
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.exe
+P:\Cursos Programação\EFA Alcoitão\Aulas\10790 - Projeto de Programacao\Projeto de Programação - Ruben Vicente\MrPcBuilder_project\obj\Debug\MrPcBuilder_project.pdb
