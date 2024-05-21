@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|p:\\codeprojetos\\projetos_pessoais\\c#\\mrpcbuilder\\mrpcbuilder_project\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C75D390-4368-42A1-9E3B-EE6594AF2A25}|MrPcBuilder_project.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -677,8 +677,8 @@
               "Title": "DBConnect.cs",
               "DocumentMoniker": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\DBConnect.cs",
               "RelativeDocumentMoniker": "DBConnect.cs",
-              "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\DBConnect.cs*",
-              "RelativeToolTip": "DBConnect.cs*",
+              "ToolTip": "P:\\CodeProjetos\\Projetos_Pessoais\\C#\\MrPcBuilder\\MrPcBuilder_project\\DBConnect.cs",
+              "RelativeToolTip": "DBConnect.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAAAFIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T15:45:20.281Z",
@@ -694,8 +694,7 @@
               "RelativeToolTip": "Global.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAcwGsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:34:04.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T12:34:04.605Z"
             }
           ]
         }
