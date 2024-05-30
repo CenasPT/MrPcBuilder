@@ -1,0 +1,16 @@
+user: rui@gmail.com
+pass: rui123
+role: Security
+
+user: jose@gmail.com
+pass: Jose123
+role: Builder
+
+user: admin
+pass: admin
+role: Admin
+
+(user blocked)
+user: pedro@gmail.com
+pass: Pedro123
+role: Builder

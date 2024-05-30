@@ -58,6 +58,7 @@ namespace MrPcBuilder_project
                     lblBloquedAccount.Visible = true;
                     btnReactivateAcc.Enabled = true;
                     btnReactivateAcc.Focus();
+                    btnSaveEmployeeAcc.Enabled = false;
                 }                
             }
             else
@@ -171,10 +172,11 @@ namespace MrPcBuilder_project
                 }
                 txtUsernameEmployee.Text = randomUsername;
                 txtPassEmployee.Text = txtEditNameEmployee.Text + "123";
-                MessageBox.Show("Attention: Login info will be shown only once. Make sure to save it securely.");
+                MessageBox.Show("Attention: Login info will be shown only once.\nYou have to save for changes to take effect.");
                 btnReactivateAcc.Enabled = false;
-                lblBloquedAccount.Text = "Make sure to save Login info securely.";
-                lblBloquedAccount.Location = new Point(398,23);
+                lblBloquedAccount.Text = "Make sure to write Login info somewhere secure.";
+                lblBloquedAccount.Location = new Point(360,23);
+                btnSaveEmployeeAcc.Enabled = true;
                 btnSaveEmployeeAcc.Focus();
             }
         }

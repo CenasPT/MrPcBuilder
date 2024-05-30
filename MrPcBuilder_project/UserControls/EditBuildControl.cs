@@ -74,6 +74,7 @@ namespace MrPcBuilder_project
             btnRefreshAddComponent.Enabled = false;
             btnDeleteComponent.Enabled = false;            
             
+            nudBuildID.Enabled = true;
             nudBuildID.Focus();
         }
 
